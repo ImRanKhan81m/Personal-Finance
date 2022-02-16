@@ -53,3 +53,32 @@ h3{
     color: white;
     font-weight: 600;
 }
+
+/* Responsive Css */
+@media (max-width: 576px) {
+     body h3{
+         justify-content: center;
+     }
+     h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+     .Personal-managment input {
+        padding: 0px;
+        width: 100px;
+    }
+    .input{
+        display: flex;
+        justify-content: start;
+    }
+    .calculate-btn button {
+        font-size: 18px;
+        padding: 8px 50px 8px 50px;
+    }
+    .saving-amount button {
+        font-size: 18px;
+        padding: 5px 20px 5px 20px;  
+    }
+}
