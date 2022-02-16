@@ -1,5 +1,55 @@
-
+h1{
+    font-weight: 700;
+    color: #31a5ac;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+}
+h3{
+    color: rgba(56, 56, 56, 0.925);
+    font-size: 22px;
+}
 .image img{
     width: 100%;
     border-radius: 10px;
+}
+.managment{
+    border-radius: 10px;
+}
+.Personal-managment h3{
+    display: inline-block;
+}
+.Personal-managment input{
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+}
+.calculate-btn button{
+    font-size: 20px;
+    background-color: rgb(4, 163, 255);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    padding:10px 30px 10px 30px;
+}
+.saving-amount input{
+    padding: 8px 10px 8px 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.saving-amount span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.saving-amount button{
+    font-size: 20px;
+    background-color: rgb(4, 163, 255);
+    border: none;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    color: white;
+    font-weight: 600;
 }

@@ -19,7 +19,7 @@
 <body>
     
     <main>
-        <section class="py-5 my-5">
+        <section class="pt-5">
             <div class="container">
                 <div class="text-center mb-5">
                     <h1> Personal Finace</h1>
@@ -31,13 +31,65 @@
                             
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h1>Imran Hossen</h1>
+                    <div class="col-lg-6 bg-light managment">
+                        <div class="Personal-managment p-5">
+                            <div class="income mb-3">
+                                <h2 class="text-center mb-3">Income</h2>
+                                <div class="income-input-value">
+                                    <div class="div">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-6"><h3 class=" d-flex justify-content-end">Income :</h3></div>
+                                            <div class="col-lg-6 col-6"><input id="income-input" type="number"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expenses">
+                                <h2 class="text-center mb-4">Expenses</h2>
+                                <div class="expenses-input-value">
+                                    <div class="div mb-3">
+                                        <div class="row">
+                                            <div class="col-lg-6"><h3 class=" d-flex justify-content-end">Food Cost :</h3></div>
+                                            <div class="col-lg-6"><input id="food-cost" type="number"></div>
+                                        </div>
+                                    </div>
+                                    <div class="div mb-3">
+                                        <div class="row">
+                                            <div class="col-lg-6"><h3 class=" d-flex justify-content-end">Rent Cost :</h3></div>
+                                            <div class="col-lg-6"><input id="rent-cost" type="number"></div>
+                                        </div>
+                                    </div>
+                                    <div class="div mb-3">
+                                        <div class="row">
+                                            <div class="col-lg-6"><h3 class=" d-flex justify-content-end">Shopping Cost :</h3></div>
+                                            <div class="col-lg-6"><input id="shopping-cost" type="number"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calculate-btn text-center mt-4">
+                                <button id="calculate" type="button">Calculate</button>
+                            </div>
+                            <div class="current-balance">
+                                <h2 class="text-center mt-4">Total Expenses: $<span id="total-expenses">00</span></h2>
+                                <h2 class="text-center mt-2">Balance: $<span id="update-balance">00</span></h2>
+                            </div>
+                            <div class="saving-amount text-center mt-3">
+                                <h3>Save : <input id="saving-input" type="number"></h3> <span>%</span>  <button id="saving-btn" type="button">Save</button>
+                            </div>
+                            <div class="total-balance">
+                                <h2 class="text-center mt-4">Saving Amount: $<span id="saving-amount">00</span></h2>
+                                <h2 class="text-center mt-2">Remaining Balance: $<span id=" remaining-balance">00</span></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
