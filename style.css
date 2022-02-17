@@ -1,3 +1,5 @@
+
+/* Main Css */
 h1{
     font-weight: 700;
     color: #31a5ac;
@@ -17,6 +19,7 @@ h3{
 }
 .managment{
     border-radius: 10px;
+    background-color: 	#fafad2;
 }
 .Personal-managment h3{
     display: inline-block;
@@ -54,7 +57,9 @@ h3{
     font-weight: 600;
 }
 
-/* Responsive Css */
+/* =================================================
+                Responsive Css
+    ================================================ */
 @media (max-width: 576px) {
      body h3{
          justify-content: center;
